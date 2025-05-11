@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goles Históricos</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>⚽ Goles Históricos</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#goles">Goles</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenidos</h2>
+      <p>Explora los goles más legendarios de la historia del fútbol. Revive momentos inolvidables y descubre curiosidades detrás de cada anotación.</p>
+    </section>
+
+    <section id="goles">
+      <h2>Goles Legendarios</h2>
+      <div class="goles-grid">
+        <div class="gol-card">
+          <h3>Maradona vs Inglaterra (1986)</h3>
+          <iframe src="https://www.youtube.com/embed/-ccNkksrfls" allowfullscreen></iframe>
+        </div>
+        <div class="gol-card">
+          <h3>Zidane vs Bayer Leverkusen (2002)</h3>
+          <a href="https://youtu.be/4TuggkDPw6A?si=10s8wm7ZNwQBcH05" target="_blank" rel="noopener noreferrer">
+            Ver gol histórico en YouTube
+          </a>
+        </div>
+        <div class="gol-card">
+          <h3>Ronaldinho vs Chelsea (2005)</h3>
+          <a href="https://youtu.be/fygu4KrxJqc?si=WbruIX8rvIFUdkw9" target="_blank" rel="noopener noreferrer">
+            Ver gol histórico en YouTube
+          </a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="contact-form">
+        <input type="text" name="nombre" placeholder="Tu nombre" required />
+        <input type="email" name="email" placeholder="Tu correo" required />
+        <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="form-msg"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Goles Históricos</p>
+    <div>
+      <a href="#">Twitter</a>
+      <a href="#">YouTube</a>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
